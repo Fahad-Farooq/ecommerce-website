@@ -1,6 +1,5 @@
 import { createContext, useContext, useState } from "react";
 const AuthContext = createContext();
-const Navigate = useNavigate();
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(() =>
